@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link id="wrapperStyles" rel="stylesheet" href="https://artifacts.bbcomcdn.com/bb-ui/18.5.0/bb-wrapper.min.css" media="all">
+    <link rel="stylesheet" type="text/css" href="//artifacts.bbcomcdn.com/marketing-app/5.0.0/marketing-ui-core.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/pint-slider.min.css">
+    <script src="js/pint-slider.min.js"></script>
+</head>
+<body>
+    
+    </style>
+    <div class="marketing__Carousel">
+        <div class="js__carousel_append">
+            <div class="marketing__example__product">PRODUCT 1</div>
+            <div class="marketing__example__product">PRODUCT 2</div>
+            <div class="marketing__example__product">PRODUCT 3</div>
+            <div class="marketing__example__product">PRODUCT 4</div>
+            <div class="marketing__example__product">PRODUCT 5</div>
+
+            <div class="marketing__example__product">PRODUCT 6</div>
+            <div class="marketing__example__product">PRODUCT 7</div>
+            <div class="marketing__example__product">PRODUCT 8</div>
+            <div class="marketing__example__product">PRODUCT 9</div>
+            <div class="marketing__example__product">PRODUCT 10</div>
+        </div>
+    </div>
+
+    <script>
+        exampleInitialize = new Carousel({
+            cellClass: ".marketing__example__product",
+            appendTo: ".js__carousel_append",
+            arrows: true,
+            autoplay: false,
+            cellToShow: 5,
+            desktopPadding: 10,
+            dots: true,
+            mobileAt: "1000px"
+        });
+
+    </script>
+</body>
+</html>
